@@ -2,18 +2,72 @@
 
 body{
     background-color: black;
-}
-
-header{
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-header li{
-    list-style: none;
-    text-align: center;
+header ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
 }
 
 header a{
     color: white;
     text-decoration: none;
+}
+
+header a:hover{
+    transition-duration: 0.3s;
+    color: green;
+}
+
+header img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid green;
+}
+
+div.center{
+    text-align: center;
+    padding-top: 20px;
+}
+
+div.container{
+    padding: 0px 50px;
+}
+
+h1{
+    color: green;
+}
+
+p{
+    text-align: justify;
+    padding: 5px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+footer img{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+footer p{
+    text-align: center;
+    margin-top: 2px;
+}
+
+footer a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    margin:10px;
 }
