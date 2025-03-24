@@ -31,6 +31,10 @@ header img{
     border: 3px solid green;
 }
 
+nav abbr{
+    text-decoration: none;
+}
+
 div.center{
     text-align: center;
     padding-top: 20px;
@@ -47,6 +51,10 @@ h1{
 p{
     text-align: justify;
     padding: 5px;
+}
+
+li{
+    margin-top: 10px;
 }
 
 footer{
@@ -70,4 +78,8 @@ footer a{
     color: white;
     text-decoration: none;
     margin:10px;
+}
+
+footer a:hover{
+    text-decoration: underline;
 }
